@@ -16,7 +16,6 @@ public class buttonHandler : MonoBehaviour
     public Button addButtonClick;
     public Button subButtonClick;
 
-    // Start is called before the first frame update
     void Start()
     {
         addButtonClick.onClick.AddListener(add);
